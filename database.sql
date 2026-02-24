@@ -10,9 +10,9 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password, role) VALUES
-('admin', 'admin123', 'admin'),
-('user1', 'user123', 'user'),
-('dokter1', 'dr123', 'dr');
+('admin', '123', 'admin'),
+('user', '123', 'user'),
+('dokter', '123', 'dr');
 
 CREATE TABLE documents (
     id INT AUTO_INCREMENT PRIMARY KEY,
